@@ -1,16 +1,48 @@
-# React + Vite
+<div align="center">
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# eJPT Playbook
 
-Currently, two official plugins are available:
+[![Build Status](https://img.shields.io/github/actions/workflow/status/OmarIzquierdo/ejpt-playbook/deploy.yml?style=flat-square&logo=github&label=deploy)](https://github.com/OmarIzquierdo/ejpt-playbook/actions)
+[![License](https://img.shields.io/github/license/OmarIzquierdo/ejpt-playbook?style=flat-square&color=yellow)](LICENSE)
+[![Platform](https://img.shields.io/badge/React-19.0-61DAFB?style=flat-square&logo=react)](https://react.dev/)
+[![Tooling](https://img.shields.io/badge/Vite-6.0-646CFF?style=flat-square&logo=vite)](https://vitejs.dev/)
+[![Styling](https://img.shields.io/badge/Tailwind-3.4-38B2AC?style=flat-square&logo=tailwind-css)](https://tailwindcss.com/)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+**An interactive and structured guide designed to help students navigate the eJPT (eLearnSecurity Junior Penetration Tester) certification journey.**
 
-## React Compiler
+This playbook centralizes essential methodologies, core commands, roadmaps, and practical tips within a modern, high-performance interface.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+[Live Demo](https://omarizquierdo.github.io/ejpt-playbook/) · [Report Bug](https://github.com/OmarIzquierdo/ejpt-playbook/issues) · [Request Feature](https://github.com/OmarIzquierdo/ejpt-playbook/issues)
 
-## Expanding the ESLint configuration
+</div>
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+> **Disclaimer:** This is a community project and is not affiliated with, endorsed by, or supported by eLearnSecurity or INE. The content is based on personal study experiences and public resources.
+
+## 🚀 Key Features
+
+The **eJPT Playbook** is built to serve as a quick-reference companion during study sessions or the exam itself:
+
+* **Methodology Flow:** A visual breakdown of the pentesting lifecycle (Reconnaissance, Exploitation, Post-Exploitation).
+* **Interactive Roadmap:** A detailed grid covering the core domains and topics required for the certification.
+* **Ready-to-use Snippets:** Essential commands for tools like Nmap, Metasploit, Netcat, and more, optimized for copy-pasting.
+* **Advice & Quotes:** Dynamic study tips and motivation to keep you focused throughout the learning process.
+
+## 💻 Local Development
+
+If you want to clone the project and run it locally for customization or contribution:
+
+### Prerequisites
+* [Node.js](https://nodejs.org/) (Version 20+ recommended)
+* npm or your preferred package manager
+
+### Installation
+
+```bash
+# Clone the repository
+git clone [https://github.com/OmarIzquierdo/ejpt-playbook.git](https://github.com/OmarIzquierdo/ejpt-playbook.git)
+
+# Enter the directory
+cd ejpt-playbook
+
+# Install dependencies
+npm install
