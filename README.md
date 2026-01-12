@@ -46,3 +46,33 @@ cd ejpt-playbook
 
 # Install dependencies
 npm install
+```
+
+## Running the App
+
+```bash
+# Start the development server
+npm run dev
+```
+
+The application will be available at `http://localhost:5173`.
+
+---
+
+## 🛠️ Tech Stack
+
+* **React 19:** Library for building user interfaces.
+* **Vite:** Ultra-fast frontend build tool.
+* **Tailwind CSS:** Utility-first CSS framework for styling.
+* **Framer Motion:** Library for smooth animations and component transitions.
+* **Lucide React:** A clean and consistent icon set.
+
+---
+
+## 📄 License
+
+This project is licensed under the **MIT License**. You are free to use, modify, and share it as long as the original credit is maintained.
+
+<div align="center">
+Built with ❤️ for the Cybersecurity community.
+</div>
